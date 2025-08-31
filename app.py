@@ -9,6 +9,8 @@ from utils import compute_viscosity, cavitation_risk_proxy, risk_score, classify
 APP_TITLE = "Circulix – Cold‑Aware Pump Health (One‑App)"
 DATA_DIR = Path("data")
 MODEL_DIR = Path("models")
+for d in [DATA_DIR, MODEL_DIR, Path("uploads")]:
+    d.mkdir(parents=True, exist_ok=True)
 
 st.set_page_config(page_title=APP_TITLE, layout="wide")
 
