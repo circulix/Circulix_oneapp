@@ -1,0 +1,5 @@
+timestamp,Ambient_T,Vibration_RMS_g,Vibration_1x_g,Vibration_2x_g,Acoustic_RMS,Pressure_Fluct_bar,Suction_Pressure_Pa,Discharge_Pressure_Pa,Flow_Rate,Motor_Current_A,Leakage_Rate,Label
+2025-08-31 12:00:00,-18,0.7,0.6,0.25,0.9,0.10,120000,400000,110,41.0,0.8,Cavitation
+2025-08-31 12:05:00,-22,1.4,0.9,0.45,0.8,0.12,119000,398000,95,41.5,1.1,Seal_Leak
+2025-08-31 12:10:00,-15,1.6,1.2,0.50,0.7,0.06,121000,401000,120,42.1,0.3,Bearing
+2025-08-31 12:15:00,-5,0.35,0.22,0.09,0.3,0.03,121500,401500,125,40.0,0.1,Normal
